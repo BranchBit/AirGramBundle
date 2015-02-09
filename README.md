@@ -1,7 +1,7 @@
 AirGramBundle
 =====================
 
-
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/5650d234-1527-4365-b380-bbcf1fa0af67/small.png)](https://insight.sensiolabs.com/projects/5650d234-1527-4365-b380-bbcf1fa0af67)
 
 
 ### Step 1: Download BBITAirGramBundle using composer
