@@ -12,7 +12,7 @@ class AirGramService
     public function __construct($apis){
         $this->apis = $apis;
 
-        $this->usedApi = $apis['default'];
+        $this->usedApi = $this->apis['default'];
 
     }
 
@@ -21,7 +21,7 @@ class AirGramService
 
         $usedApi = $this->usedApi;
 
-        @$response = file_get_contents('https://'.$usedApi['key'].':'.$usedApi['secret'].'@api.airgramapp.com/1/subscribe?email='.$email);
+        $response = file_get_contents('https://'.$usedApi['key'].':'.$usedApi['secret'].'@api.airgramapp.com/1/subscribe?email='.$email);
 
         $data = json_decode($response);
 
@@ -40,14 +40,14 @@ class AirGramService
 
         $usedApi = $this->usedApi;
 
-        @$response = file_get_contents('https://'.$usedApi['key'].':'.$usedApi['secret'].'@api.airgramapp.com/1/send?email='.urlencode($email).'&msg='.urlencode($message));
+        $response = file_get_contents('https://'.$usedApi['key'].':'.$usedApi['secret'].'@api.airgramapp.com/1/send?email='.urlencode($email).'&msg='.urlencode($message));
 
         $data = json_decode($response);
 
 
 
         //if ($data->message == "OK") {
-        if (!isset($data) or $data->status != "ok") {
+        if (!isset($data) || $data->status != "ok") {
             return false;
         } else {
             return true;
