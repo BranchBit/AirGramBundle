@@ -1,0 +1,3 @@
+branch_bit_air_gram_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: BranchBitAirGramBundle:Default:index }

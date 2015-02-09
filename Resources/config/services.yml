@@ -1,0 +1,7 @@
+services:
+#    branch_bit_air_gram.example:
+#        class: BranchBit\AirGramBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+    bbit_airgam:
+        class: BranchBit\AirGramBundle\Service\AirGramService
+        arguments: [%branch_bit_air_gram.apis%]
