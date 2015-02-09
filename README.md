@@ -1,7 +1,8 @@
 AirGramBundle
 =====================
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/5650d234-1527-4365-b380-bbcf1fa0af67/small.png)](https://insight.sensiolabs.com/projects/5650d234-1527-4365-b380-bbcf1fa0af67)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/5650d234-1527-4365-b380-bbcf1fa0af67/small.png)](https://insight.sensiolabs.com/projects/5650d234-1527-4365-b380-bbcf1fa0af67) [![knpbundles.com](http://knpbundles.com/BranchBit/AirGramBundle/badge-short)](http://knpbundles.com/BranchBit/AirGramBundle)
+
 
 
 ### Step 1: Download BBITAirGramBundle using composer
