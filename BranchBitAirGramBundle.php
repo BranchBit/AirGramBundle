@@ -1,6 +1,6 @@
 <?php
 
-namespace BranchBit\AirGramBundle;
+namespace BBIT\AirGramBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

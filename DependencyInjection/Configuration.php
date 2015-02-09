@@ -1,6 +1,6 @@
 <?php
 
-namespace BranchBit\AirGramBundle\DependencyInjection;
+namespace BBIT\AirGramBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

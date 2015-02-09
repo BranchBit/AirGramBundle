@@ -1,6 +1,6 @@
 <?php
 
-namespace BranchBit\AirGramBundle\DependencyInjection;
+namespace BBIT\AirGramBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

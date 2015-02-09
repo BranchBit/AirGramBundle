@@ -1,6 +1,6 @@
 <?php
 
-namespace BranchBit\AirGramBundle\Service;
+namespace BBIT\AirGramBundle\Service;
 
 class AirGramService
 {

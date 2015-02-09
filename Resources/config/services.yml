@@ -3,5 +3,5 @@ services:
 #        class: BranchBit\AirGramBundle\Example
 #        arguments: [@service_id, "plain_value", %parameter%]
     bbit_airgam:
-        class: BranchBit\AirGramBundle\Service\AirGramService
+        class: BBIT\AirGramBundle\Service\AirGramService
         arguments: [%branch_bit_air_gram.apis%]
